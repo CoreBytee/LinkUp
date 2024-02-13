@@ -1,11 +1,18 @@
 {
-  "name": "linkup",
-  "module": "index.js",
-  "type": "module",
-  "devDependencies": {
-    "@types/bun": "latest"
-  },
-  "peerDependencies": {
-    "typescript": "^5.0.0"
-  }
+    "name": "linkup",
+    "description": "Discord clone",
+
+    "scripts": {
+        "serve": "bun build --outdir ./srcfront/public/ ./srcfront/index.js --watch"
+    },
+
+    "module": "index.js",
+    "type": "module",
+    "devDependencies": {
+        "@types/bun": "latest",
+        "react-dom": "^18.2.0"
+    },
+    "peerDependencies": {
+        "typescript": "^5.0.0"
+    }
 }
