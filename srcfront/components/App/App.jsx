@@ -1,7 +1,9 @@
+import Login from "../Login/Login.jsx"
+
 export default function App() {
     return (
         <div>
-            <h1>Hello, world!!!</h1>
+            <Login />
         </div>
     )
 }

@@ -23473,18 +23473,37 @@ var require_jsx_dev_runtime = __commonJS((exports, module) => {
 
 // srcfront/index.js
 var client = __toESM(require_client(), 1);
+// srcfront/components/Login/Login.jsx
+var jsx_dev_runtime = __toESM(require_jsx_dev_runtime(), 1);
+function Login2() {
+  return jsx_dev_runtime.jsxDEV("div", {
+    id: "kleur",
+    children: jsx_dev_runtime.jsxDEV("form", {
+      action: "",
+      children: [
+        jsx_dev_runtime.jsxDEV("input", {
+          type: "text",
+          placeholder: "username"
+        }, undefined, false, undefined, this),
+        jsx_dev_runtime.jsxDEV("br", {}, undefined, false, undefined, this),
+        jsx_dev_runtime.jsxDEV("input", {
+          type: "submit",
+          value: "Login"
+        }, undefined, false, undefined, this)
+      ]
+    }, undefined, true, undefined, this)
+  }, undefined, false, undefined, this);
+}
 
 // srcfront/components/App/App.jsx
-var jsx_dev_runtime = __toESM(require_jsx_dev_runtime(), 1);
+var jsx_dev_runtime2 = __toESM(require_jsx_dev_runtime(), 1);
 function App() {
-  return jsx_dev_runtime.jsxDEV("div", {
-    children: jsx_dev_runtime.jsxDEV("h1", {
-      children: "Hello, world!!!"
-    }, undefined, false, undefined, this)
+  return jsx_dev_runtime2.jsxDEV("div", {
+    children: jsx_dev_runtime2.jsxDEV(Login2, {}, undefined, false, undefined, this)
   }, undefined, false, undefined, this);
 }
 
 // srcfront/index.js
-var jsx_dev_runtime2 = __toESM(require_jsx_dev_runtime(), 1);
+var jsx_dev_runtime3 = __toESM(require_jsx_dev_runtime(), 1);
 var Root = client.createRoot(document.getElementById("root"));
-Root.render(jsx_dev_runtime2.jsxDEV(App, {}, undefined, false, undefined, this));
+Root.render(jsx_dev_runtime3.jsxDEV(App, {}, undefined, false, undefined, this));
