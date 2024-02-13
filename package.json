@@ -3,7 +3,8 @@
     "description": "Discord clone",
 
     "scripts": {
-        "serve": "bun build --outdir ./srcfront/public/ ./srcfront/index.js --watch"
+        "serve": "bun build --outdir ./srcfront/public/ ./srcfront/index.js --watch",
+        "build": "bun build --outdir ./srcfront/public/ ./srcfront/index.js"
     },
 
     "module": "index.js",
