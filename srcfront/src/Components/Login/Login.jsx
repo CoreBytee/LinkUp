@@ -3,11 +3,18 @@ import './Login.css'
 function Login() {
   return (
     <>
-        <form action="">
-            <input type="text" placeholder='username' required />
-            <br />
-            <input type="submit" value="Login" />
-        </form>
+<div class="container">
+  <div class="card">
+    <h2>Login</h2>
+    <form action=''>
+    <label for="username">Username</label>
+      <input type="text" id="username" name="username" required/>
+      <label for="password">Password</label>
+      <input type="password" id="password" name="password" required/>
+      <button type="submit">Login</button>
+    </form>
+  </div>
+</div>
     </>
   )
 }
