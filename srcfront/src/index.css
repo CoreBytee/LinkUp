@@ -17,9 +17,10 @@ html, body {
 input {
     appearance: none;
     border: none;
+    outline: none;
+
     padding: 10px;
     border-radius: 4px;
-    outline: none;
     background-color: var(--color-input);
     color: var(--color-text);
 }
