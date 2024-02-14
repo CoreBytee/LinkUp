@@ -1,0 +1,23 @@
+body {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #282c37;
+    color: #fff;
+    display: grid;
+  }
+
+  input{
+    width: 90vw;
+    height: 7vh;
+    border-radius: 20px;
+    margin-top: 60%;
+    font-size: 140%;
+    padding-left: 2%;
+  }
+  input:focus{
+    outline: none;
+  }
