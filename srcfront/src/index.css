@@ -14,7 +14,11 @@ html, body {
     font-family: "Roboto", sans-serif;
 }
 
-input {
+* {
+    box-sizing: border-box;
+}
+
+input, select, textarea {
     appearance: none;
     border: none;
     outline: none;
