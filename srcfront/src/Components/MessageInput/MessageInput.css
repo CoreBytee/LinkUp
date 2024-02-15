@@ -1,0 +1,28 @@
+.MessageInput {
+    height: 70px;
+    padding: 10px;
+
+    form {
+        width: 100%;
+        height: 100%;
+
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+    }
+
+    input[type="text"] {
+        width: 100%;
+        height: 100%;
+    }
+
+    input[type="submit"] {
+        height: 50px;
+        aspect-ratio: 1/1;
+        border-radius: 4px;
+        cursor: pointer;
+
+        font-family: var(--font-bootstrap);
+        font-size: 1.5rem;
+    }
+}

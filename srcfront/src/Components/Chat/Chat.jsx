@@ -1,15 +1,14 @@
+import MessageContainer from "../MessageContainer/MessageContainer";
+import MessageInput from "../MessageInput/MessageInput";
 import "./Chat.css";
 
 function Chat() {
   return (
-    <>
-        <div id="chatBar">
-            <form action="">
-            <input type="text" placeholder="Message" />
-            </form>
-        </div>
-    </>
-  );
+    <div className="Chat">
+        <MessageContainer />
+        <MessageInput />
+    </div>
+  )
 }
 
-export default Chat;
+export default Chat

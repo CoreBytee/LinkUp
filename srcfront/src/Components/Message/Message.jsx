@@ -1,26 +1,25 @@
-import "./Message.css";
+import "./Message.css"
 
-function Message() {
-  return (
-    <>
-      <div id="container">
-        <div id="flex">
-          <div id="profilePic">
-            <img src="" alt="" />
-          </div>
-          <div id="userName">Thijmen</div>
+function Message(
+    {
+        Username,
+        IconUrl = "https://d31sxl6qgne2yj.cloudfront.net/wordpress/wp-content/uploads/20190102094846/Minecraft-Stone-Block.jpg",
+        MessageContent,
+        CreatedAt = "Now"
+    }
+) {
+    return (
+        <div className="Message">
+            <img src={IconUrl} alt="ProfileIcon" />
+            <div>
+                <div className="userdata">
+                    <p className="username">{Username}</p>
+                    <p className="createdat">{CreatedAt}</p>
+                </div>
+                <p className="content">{MessageContent}</p>
+            </div>
         </div>
-        <div id="message">
-          <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book.
-          </p>
-        </div>
-      </div>
-    </>
-  );
+    )
 }
 
-export default Message;
+export default Message
