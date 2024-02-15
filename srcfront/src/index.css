@@ -4,6 +4,9 @@
     --color-input: #505050;
     --color-link: #61dafb;
     --color-text: #fff;
+    --color-text-alternative: #b7b7b7;
+
+    --font-bootstrap: "bootstrap-icons";
 }
 
 html, body {
@@ -29,6 +32,6 @@ input, select, textarea {
     color: var(--color-text);
 }
 
-h1, h2, h3, h4, h5, h6 {
+p, h1, h2, h3, h4, h5, h6 {
     margin: 0;
 }
